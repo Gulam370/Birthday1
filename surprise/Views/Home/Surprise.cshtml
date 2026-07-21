@@ -1,0 +1,141 @@
+﻿
+<div id="heart-container"></div>
+
+
+    <h1>🎁 A Special Surprise ❤️</h1>
+
+    <button id="surpriseBtn"
+            class="btn btn-danger btn-lg"
+            onclick="growLoveTree()">
+        Click Me 🎁
+    </button>
+
+    <div id="treeScene" style="display:none;">
+
+        <div class="tree">
+
+        <div id="trunk"></div>
+
+        <div id="branch-left"></div>
+
+        <div id="branch-right"></div>
+
+        <div id="canopy">
+    ❤️
+        </div>
+
+
+    </div>
+
+    <div id="typewriter"
+         class="love-message">
+    </div>
+
+</div>
+
+<script>
+
+         function growLoveTree() {
+
+    document.getElementById("surpriseBtn").style.display = "none";
+
+    document.getElementById("treeScene").style.display = "block";
+
+    document.getElementById("trunk")
+            .classList.add("grow-trunk");
+
+    setTimeout(() => {
+
+        document.getElementById("branch-left")
+                .classList.add("grow-branch");
+
+        document.getElementById("branch-right")
+                .classList.add("grow-branch");
+
+    }, 1800);
+
+    setTimeout(() => {
+
+        document.getElementById("canopy")
+                .classList.add("show-canopy");
+
+    }, 2800);
+
+    setTimeout(() => {
+
+        typeMessage();
+
+    }, 4500);
+}
+
+    function typeMessage()
+    {
+        const text =
+    `Happy Birthday My Love ❤️
+
+    Just like this tree,
+    my love for you keeps growing every single day.
+
+    Thank you for every smile,
+    every memory,
+    and every beautiful moment.
+
+    I Love You ❤️`;
+
+        let i = 0;
+
+        const speed = 40;
+
+        const target =
+            document.getElementById("typewriter");
+
+        const timer = setInterval(() =>
+        {
+            target.innerHTML += text.charAt(i);
+
+            i++;
+
+            if(i >= text.length)
+            {
+                clearInterval(timer);
+            }
+
+        },speed);
+    }
+
+</script>
+
+<script>
+
+    function createHeart() {
+
+        const heart = document.createElement("div");
+
+        heart.classList.add("heart");
+
+        const hearts = ["❤️", "💖", "💕", "💗", "💘"];
+
+        heart.innerHTML =
+            hearts[Math.floor(Math.random() * hearts.length)];
+
+        heart.style.left = Math.random() * 100 + "vw";
+
+        heart.style.fontSize =
+            (20 + Math.random() * 30) + "px";
+
+        heart.style.animationDuration =
+            (5 + Math.random() * 5) + "s";
+
+        document
+            .getElementById("heart-container")
+            .appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 10000);
+    }
+
+    setInterval(createHeart, 300);
+
+</script>
+

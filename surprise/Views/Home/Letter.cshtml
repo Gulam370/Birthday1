@@ -1,0 +1,98 @@
+﻿
+<div class="container text-center mt-5">
+    <div id="heart-container"></div>
+
+    <h1>💌 A Letter For You</h1>
+
+    <p class="fs-4 mt-4">
+
+        Happy Birthday My Love ❤️
+
+        Thank you for being the most beautiful part of my life.
+
+        Your smile makes my bad days better,
+        your presence makes every moment special.
+
+        I wish you happiness, success and endless smiles.
+
+        I love you today,
+        tomorrow and forever.
+
+        ❤️
+
+    </p>
+
+    <a asp-action="Surprise"
+       class="btn btn-danger">
+        Open Surprise 🎁
+    </a>
+
+</div>
+
+@* <script> *@
+
+@*     function createHeart() { *@
+
+@*         const heart = document.createElement("div"); *@
+
+@*         heart.classList.add("heart"); *@
+
+@*         const hearts = ["❤️", "💖", "💕", "💗", "💘"]; *@
+
+@*         heart.innerHTML = *@
+@*             hearts[Math.floor(Math.random() * hearts.length)]; *@
+
+@*         heart.style.left = Math.random() * 100 + "vw"; *@
+
+@*         heart.style.fontSize = *@
+@*             (20 + Math.random() * 30) + "px"; *@
+
+@*         heart.style.animationDuration = *@
+@*             (5 + Math.random() * 5) + "s"; *@
+
+@*         document *@
+@*             .getElementById("heart-container") *@
+@*             .appendChild(heart); *@
+
+@*         setTimeout(() => { *@
+@*             heart.remove(); *@
+@*         }, 10000); *@
+@*     } *@
+
+@*     setInterval(createHeart, 300); *@
+
+@* </script> *@
+<script>
+
+function createParticle()
+{
+    const particle = document.createElement("div");
+
+    particle.classList.add("particle");
+
+    const symbols = ["✨", "⭐", "💖", "💕", "🌸"];
+
+    particle.innerHTML =
+        symbols[Math.floor(Math.random() * symbols.length)];
+
+    particle.style.left =
+        Math.random() * 100 + "vw";
+
+    particle.style.fontSize =
+        (15 + Math.random() * 20) + "px";
+
+    particle.style.animationDuration =
+        (4 + Math.random() * 4) + "s";
+
+    document
+        .getElementById("heart-container")
+        .appendChild(particle);
+
+    setTimeout(() => {
+        particle.remove();
+    }, 8000);
+}
+
+setInterval(createParticle, 250);
+
+</script>

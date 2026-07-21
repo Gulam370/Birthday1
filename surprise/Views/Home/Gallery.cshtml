@@ -1,0 +1,76 @@
+﻿
+@model List<surprise.Models.Memory>
+
+<div id="heart-container"></div>
+
+<h1 class="text-center mt-4">
+    📸 Our Beautiful Memories
+</h1>
+
+<div class="row mt-4">
+
+    @foreach (var item in Model)
+    {
+      <div class="col-md-3">
+
+  <div class="card mb-4 shadow memory-card">
+
+    <img src="@item.ImageUrl"
+         class="card-img-top"
+         alt="@item.Title">
+
+    <div class="card-body">
+        <h5>@item.Title</h5>
+        <p>@item.Description</p>
+    </div>
+
+</div>
+
+    </div>
+
+@* </div> *@
+    }
+
+</div>
+
+<div style="position:absolute; top:20px; right:20px;">
+    <a asp-action="Chatting" class="continue-btn">
+        🎁 Ek Aur Surprise baaki hai ❤️
+    </a>
+</div>
+
+
+<script>
+
+    function createHeart() {
+
+        const heart = document.createElement("div");
+
+        heart.classList.add("heart");
+
+        const hearts = ["❤️", "💖", "💕", "💗", "💘"];
+
+        heart.innerHTML =
+            hearts[Math.floor(Math.random() * hearts.length)];
+
+        heart.style.left = Math.random() * 100 + "vw";
+
+        heart.style.fontSize =
+            (20 + Math.random() * 30) + "px";
+
+        heart.style.animationDuration =
+            (5 + Math.random() * 5) + "s";
+
+        document
+            .getElementById("heart-container")
+            .appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 10000);
+    }
+
+    setInterval(createHeart, 300);
+
+</script>
+
