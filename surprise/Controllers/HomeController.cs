@@ -54,19 +54,19 @@ namespace surprise.Controllers
                 new Memory
                 {
                    
-                    ImageUrl = "\\images2\\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg"
+                    ImageUrl = "\\images2\\ONE.jpeg"
                 },
 
                 new Memory
                 {
                    
-                    ImageUrl = "\\images2\\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg"
+                    ImageUrl = "\\images2\\TWO.jpeg"
                 },
 
                 new Memory
                 {
                   
-                    ImageUrl = "\\images2\\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg"
+                    ImageUrl = "\\images2\\THREE.jpeg"
                 }
             };
 

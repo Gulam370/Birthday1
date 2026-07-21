@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "S5YFVw7i7gmBlCd+Cl86E4bVTOCShb8zlkao0yte4ms=",
+  "Hash": "t+fchs/BRYKI1Oqf21tS5Xw5VTyQwoMTjxMdWr8de4U=",
   "Source": "surprise",
   "BasePath": "_content/surprise",
   "Mode": "Default",
@@ -164,12 +164,12 @@
       "OriginalItemSpec": "wwwroot\\images\\third_image.jpeg"
     },
     {
-      "Identity": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg",
+      "Identity": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\ONE.jpeg",
       "SourceId": "surprise",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\",
       "BasePath": "_content/surprise",
-      "RelativePath": "images2/WhatsApp Image 2026-07-20 at 11.42.44 PM#[.{fingerprint}]?.jpeg",
+      "RelativePath": "images2/ONE#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -178,11 +178,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ezfntdspfh",
-      "Integrity": "qkH/av0KGWNgXgXMOSFMg1ejDa2DFLr7kr09711MvW4=",
+      "Fingerprint": "wwcrz4opwc",
+      "Integrity": "4DLDJJJeFTDu/FGylZQTtXJsWKvgHeKYRwmAbXi/cJ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images2\\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg"
+      "OriginalItemSpec": "wwwroot\\images2\\ONE.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\THREE.jpeg",
+      "SourceId": "surprise",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\",
+      "BasePath": "_content/surprise",
+      "RelativePath": "images2/THREE#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9jvfdqd2lc",
+      "Integrity": "m43NYW/SdNraxxAPcGqMhnHK5QKLrBmf68wfERmrVsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images2\\THREE.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\TWO.jpeg",
+      "SourceId": "surprise",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\",
+      "BasePath": "_content/surprise",
+      "RelativePath": "images2/TWO#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "75k1jfl5vb",
+      "Integrity": "xcSJp6SvU8bzKC6K5DXpLvwPZ3659d7ugu6jmB8/ITE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images2\\TWO.jpeg"
     },
     {
       "Identity": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\js\\site.js",
@@ -1836,8 +1878,8 @@
       ]
     },
     {
-      "Route": "images2/WhatsApp Image 2026-07-20 at 11.42.44 PM.ezfntdspfh.jpeg",
-      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg",
+      "Route": "images2/ONE.jpeg",
+      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\ONE.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1846,7 +1888,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "87009"
+          "Value": "68977"
         },
         {
           "Name": "Content-Type",
@@ -1854,56 +1896,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qkH/av0KGWNgXgXMOSFMg1ejDa2DFLr7kr09711MvW4=\""
+          "Value": "\"4DLDJJJeFTDu/FGylZQTtXJsWKvgHeKYRwmAbXi/cJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 20 Jul 2026 18:12:48 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ezfntdspfh"
-        },
-        {
-          "Name": "label",
-          "Value": "images2/WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qkH/av0KGWNgXgXMOSFMg1ejDa2DFLr7kr09711MvW4="
-        }
-      ]
-    },
-    {
-      "Route": "images2/WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg",
-      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "87009"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qkH/av0KGWNgXgXMOSFMg1ejDa2DFLr7kr09711MvW4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 20 Jul 2026 18:12:48 GMT"
+          "Value": "Tue, 21 Jul 2026 18:17:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1913,7 +1910,216 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qkH/av0KGWNgXgXMOSFMg1ejDa2DFLr7kr09711MvW4="
+          "Value": "sha256-4DLDJJJeFTDu/FGylZQTtXJsWKvgHeKYRwmAbXi/cJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images2/ONE.wwcrz4opwc.jpeg",
+      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\ONE.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68977"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4DLDJJJeFTDu/FGylZQTtXJsWKvgHeKYRwmAbXi/cJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jul 2026 18:17:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wwcrz4opwc"
+        },
+        {
+          "Name": "label",
+          "Value": "images2/ONE.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4DLDJJJeFTDu/FGylZQTtXJsWKvgHeKYRwmAbXi/cJ8="
+        }
+      ]
+    },
+    {
+      "Route": "images2/THREE.9jvfdqd2lc.jpeg",
+      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\THREE.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m43NYW/SdNraxxAPcGqMhnHK5QKLrBmf68wfERmrVsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jul 2026 18:17:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9jvfdqd2lc"
+        },
+        {
+          "Name": "label",
+          "Value": "images2/THREE.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m43NYW/SdNraxxAPcGqMhnHK5QKLrBmf68wfERmrVsQ="
+        }
+      ]
+    },
+    {
+      "Route": "images2/THREE.jpeg",
+      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\THREE.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75970"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m43NYW/SdNraxxAPcGqMhnHK5QKLrBmf68wfERmrVsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jul 2026 18:17:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m43NYW/SdNraxxAPcGqMhnHK5QKLrBmf68wfERmrVsQ="
+        }
+      ]
+    },
+    {
+      "Route": "images2/TWO.75k1jfl5vb.jpeg",
+      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\TWO.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcSJp6SvU8bzKC6K5DXpLvwPZ3659d7ugu6jmB8/ITE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jul 2026 18:17:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "75k1jfl5vb"
+        },
+        {
+          "Name": "label",
+          "Value": "images2/TWO.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcSJp6SvU8bzKC6K5DXpLvwPZ3659d7ugu6jmB8/ITE="
+        }
+      ]
+    },
+    {
+      "Route": "images2/TWO.jpeg",
+      "AssetFile": "C:\\Users\\samee\\OneDrive\\Desktop\\SHADAAB\\surprise\\surprise\\wwwroot\\images2\\TWO.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xcSJp6SvU8bzKC6K5DXpLvwPZ3659d7ugu6jmB8/ITE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jul 2026 18:17:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xcSJp6SvU8bzKC6K5DXpLvwPZ3659d7ugu6jmB8/ITE="
         }
       ]
     },

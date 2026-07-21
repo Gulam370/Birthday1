@@ -3,7 +3,9 @@ wwwroot\favicon.ico
 wwwroot\images\first_image.jpeg
 wwwroot\images\second_image.jpeg
 wwwroot\images\third_image.jpeg
-wwwroot\images2\WhatsApp Image 2026-07-20 at 11.42.44 PM.jpeg
+wwwroot\images2\ONE.jpeg
+wwwroot\images2\THREE.jpeg
+wwwroot\images2\TWO.jpeg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

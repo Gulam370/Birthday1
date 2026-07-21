@@ -32,3 +32,4 @@ C:\Users\samee\OneDrive\Desktop\SHADAAB\surprise\surprise\obj\Debug\net8.0\refin
 C:\Users\samee\OneDrive\Desktop\SHADAAB\surprise\surprise\obj\Debug\net8.0\surprise.pdb
 C:\Users\samee\OneDrive\Desktop\SHADAAB\surprise\surprise\obj\Debug\net8.0\surprise.genruntimeconfig.cache
 C:\Users\samee\OneDrive\Desktop\SHADAAB\surprise\surprise\obj\Debug\net8.0\ref\surprise.dll
+C:\Users\samee\OneDrive\Desktop\SHADAAB\surprise\surprise\obj\Debug\net8.0\surprise.sourcelink.json
